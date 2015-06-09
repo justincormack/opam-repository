@@ -1,0 +1,3 @@
+4.01.0 release compiled with gcc -static
+
+Requires a libc that supports static compilation.
