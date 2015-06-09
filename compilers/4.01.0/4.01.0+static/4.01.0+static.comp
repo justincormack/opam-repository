@@ -4,8 +4,6 @@ src: "http://caml.inria.fr/pub/distrib/ocaml-4.01/ocaml-4.01.0.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"
     "-libs" "-static"
-    "-no-tk" "-no-curses" "-no-graph"
-    "-no-shared-libs"
     ]
   [make "world.opt"]
   [make "install"]
